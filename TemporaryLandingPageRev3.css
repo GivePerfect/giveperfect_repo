@@ -39,7 +39,23 @@
   margin-bottom: 0;
 
 }
-
+/*
+#mc_embed_signup{
+  color: black;
+  font-size:35px;
+  display:inline-block;
+  border-style:solid;
+  border-top-left-radius:10px;
+  border-bottom-left-radius:10px;
+  padding-top: 8px;
+  padding-bottom: 2px;
+  background-color: #A2CD91;
+  border-color: #A2CD91;
+  border-width: 2px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+*/
 .submitButton{
   display: inline-block;
   font-size: 35px;
@@ -55,12 +71,12 @@
 }
 
 .what{
-  color: black;
+  color: #263238;
   font-family: Open+Sans;
   font-size: 42px;
-  margin-left: 220px;
-  margin-right: 220px;
   text-align: center;
+  margin-left: 170px;
+  margin-right: 170px;
 }
 
 .how{
@@ -82,8 +98,9 @@
   overflow: hidden;
 }
 .ambassadorText{
+  color: #263238;
   font-size: 64px;
-  font-family: Lato;
+  font-family: Open+Sans;
   text-align: center;
 }
 
@@ -91,22 +108,48 @@
   background-color: #4D9F2B;
   color: white;
   border-radius: 30px;
-  padding: 10 100 10 100px;
-  font-size: 48px;
+  padding: 30 80 30 80px;
+  font-size: 32px;
+  border: 6px solid #4D9F2B;
+}
 
+.emailButton:hover{
+  background-color: #ECEFF1;
+  color: #4D9F2B;
+  text-decoration: none;
 }
 
 .fa-facebook-square{
   color: #4D9F2B;
   margin: 60px;
 }
+
+.fa-facebook-square:hover{
+  font-size: 130px;
+  text-decoration: none;
+  color: #4D9F2B;
+}
+
 .fa-twitter-square{
   color: #4D9F2B;
   margin: 60px;
 }
+
+.fa-twitter-square:hover{
+  font-size: 130px;
+  text-decoration: none;
+  color: #4D9F2B;
+}
+
 .fa-instagram{
   color: #4D9F2B;
   margin: 60px
+}
+
+.fa-instagram:hover{
+  font-size: 130px;
+  text-decoration: none;
+  color: #4D9F2B;
 }
 
 .footer{
