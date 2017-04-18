@@ -18,7 +18,6 @@
   font-size:40px;
   color: white;
   font-family:raleway;
-  line-height: 5px;
   margin-left: 20px;
 }
 
@@ -26,7 +25,6 @@
   font-size:32px;
   color: white;
   font-family:raleway;
-  line-height: 5px;
   font-weight: bold;
 }
 
@@ -82,7 +80,8 @@
 .how{
   background-color: #A2CD91;
   margin-top:0 auto;
-
+  padding-top: 30px;
+  padding-bottom: 30px;
   overflow: hidden;
 }
 
@@ -90,7 +89,7 @@
   color:white;
   text-align: center;
   font-family: Open+Sans;
-  font-size: 80px;
+  font-size: 50px;
 }
 
 .ambassador{
@@ -108,7 +107,10 @@
   background-color: #4D9F2B;
   color: white;
   border-radius: 30px;
-  padding: 30 80 30 80px;
+  padding-top: 30px;
+  padding-right: 80px;
+  padding-bottom: 30px;
+  padding-left: 80px;
   font-size: 32px;
   border: 6px solid #4D9F2B;
 }
