@@ -1,5 +1,7 @@
 
 
+
+
 .transbox{
   background-image: url("Images/worldinhandimage.png");
   width: 100%;
@@ -13,6 +15,8 @@
   font-family:raleway;
   margin-left: 20px;
 }
+
+
 
 .mission{
   font-size:40px;
@@ -73,8 +77,9 @@
   font-family: Open+Sans;
   font-size: 42px;
   text-align: center;
-  margin-left: 170px;
-  margin-right: 170px;
+  margin-left: 300px;
+  margin-right: 300px;
+  font-weight: 20;
 }
 
 .how{
@@ -89,7 +94,7 @@
   color:white;
   text-align: center;
   font-family: Open+Sans;
-  font-size: 50px;
+  font-size: 80px;
 }
 
 .ambassador{
