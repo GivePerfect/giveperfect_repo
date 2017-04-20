@@ -1,46 +1,91 @@
+.bigLineBreak{
+  line-height: 200px;
+}
 
+@media only screen and (min-width: 750px){
+  .bigLineBreak{
+    line-height: 400px;
+  }
+}
 
+.smallLineBreak{
+  line-height: 50px;
+}
 
+@media only screen and (min-width: 750px){
+  .smallLineBreak{
+    line-height: 100px;
+  }
+}
 
 .transbox{
   background-image: url("Images/worldinhandimage.png");
+  background-position: center;
   width: 100%;
   background-size: cover;
   overflow: hidden;
 }
 
+@media only screen and (min-width: 750px){
+  .transbox{
+    background-size: cover;
+  }
+}
+
 .givePerfect{
-  font-size:120px;
+  font-size:60px;
   color: white;
   font-family:raleway;
   margin-left: 20px;
 }
 
-
+@media only screen and (min-width: 750px){
+  .givePerfect{
+    font-size: 100px;
+  }
+}
 
 .mission{
-  font-size:40px;
+  font-size:26px;
   color: white;
   font-family:raleway;
   margin-left: 20px;
+}
+
+@media only screen and (min-width: 750px){
+  .mission{
+    font-size: 40px;
+  }
 }
 
 .zerofees{
-  font-size:32px;
+  font-size:24px;
   color: white;
   font-family:raleway;
   font-weight: bold;
 }
 
+@media only screen and (min-width: 750px){
+  .zerofees{
+    font-size: 32px;
+  }
+}
+
 .letsDoIt{
-  font-size:72px;
+  font-size:48px;
   color: white;
   font-family:raleway;
   text-align: left;
   float: right;
   margin-bottom: 0;
-
 }
+
+@media only screen and (min-width: 750px){
+  .letsDoIt{
+    font-size: 72px;
+  }
+}
+
 /*
 #mc_embed_signup{
   color: black;
@@ -75,11 +120,17 @@
 .what{
   color: #263238;
   font-family: Open+Sans;
-  font-size: 42px;
+  font-size: 28px;
   text-align: center;
-  margin-left: 300px;
-  margin-right: 300px;
   font-weight: 20;
+}
+
+@media only screen and (min-width: 750px){
+  .what{
+    font-size: 42px;
+    margin-left: 300px;
+    margin-right: 300px;
+  }
 }
 
 .how{
@@ -94,7 +145,37 @@
   color:white;
   text-align: center;
   font-family: Open+Sans;
-  font-size: 80px;
+  font-size: 42px;
+}
+
+@media only screen and (min-width: 750px){
+  .howText{
+    font-size: 80px;
+  }
+}
+
+.howIcons{
+  font-size:50px;
+  color: #4D9F2B;
+}
+
+@media only screen and (min-width: 750px){
+  .howIcons{
+    font-size: 80px;
+  }
+}
+
+
+.howParas{
+  font-size:24px;
+  font-family:Open+Sans;
+  color:white;
+}
+
+@media only screen and (min-width: 750px){
+  .howParas{
+    font-size: 34px;
+  }
 }
 
 .ambassador{
@@ -103,9 +184,15 @@
 }
 .ambassadorText{
   color: #263238;
-  font-size: 64px;
+  font-size: 32px;
   font-family: Open+Sans;
   text-align: center;
+}
+
+@media only screen and (min-width: 750px){
+  .ambassadorText{
+    font-size: 64px;
+  }
 }
 
 .emailButton{
@@ -113,11 +200,19 @@
   color: white;
   border-radius: 30px;
   padding-top: 30px;
-  padding-right: 80px;
+  padding-right: 60px;
   padding-bottom: 30px;
-  padding-left: 80px;
-  font-size: 32px;
+  padding-left: 60px;
+  font-size: 26px;
   border: 6px solid #4D9F2B;
+}
+
+@media only screen and (min-width: 750px){
+  .emailButton{
+    font-size: 32px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
 }
 
 .emailButton:hover{
@@ -128,7 +223,13 @@
 
 .fa-facebook-square{
   color: #4D9F2B;
-  margin: 60px;
+  margin: 20px;
+}
+
+@media only screen and (min-width: 750px){
+  .fa-facebook-square{
+    margin: 60px;
+  }
 }
 
 .fa-facebook-square:hover{
@@ -139,7 +240,13 @@
 
 .fa-twitter-square{
   color: #4D9F2B;
-  margin: 60px;
+  margin: 20px;
+}
+
+@media only screen and (min-width: 750px){
+  .fa-twitter-square{
+    margin: 60px;
+  }
 }
 
 .fa-twitter-square:hover{
@@ -150,7 +257,13 @@
 
 .fa-instagram{
   color: #4D9F2B;
-  margin: 60px
+  margin: 20px
+}
+
+@media only screen and (min-width: 750px){
+  .fa-instagram{
+    margin: 60px;
+  }
 }
 
 .fa-instagram:hover{
